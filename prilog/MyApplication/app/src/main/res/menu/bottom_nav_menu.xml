@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_register"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Регистрация"/>
+
+    <item
+        android:id="@+id/nav_login"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Авторизация"/>
+
+    <item
+        android:id="@+id/nav_admin"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Администрация"
+        android:visible="false"/> <!-- Initially hidden -->
+</menu>

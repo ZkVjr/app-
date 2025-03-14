@@ -1,0 +1,150 @@
+:root {
+  --dark-bg: #121212;
+  --dark-surface: #1e1e1e;
+  --dark-border: #404040;
+  --dark-text: white;
+  --dark-primary: #0066cc;
+  --dark-primary-hover: #0052a3;
+}
+
+.dark {
+  --bg-primary: #121212;
+  --text-primary: #ffffff;
+  --text-secondary: #e0e0e0;
+  --input-bg: #1e1e1e;
+  --input-border: #404040;
+  --button-bg: #2d2d2d;
+  --button-hover: #404040;
+  --card-bg: #1e1e1e;
+  --border-color: #404040;
+}
+
+/* Основные стили для темной темы */
+.dark body {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+}
+
+/* Инпуты и текстовые поля */
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: var(--dark-surface);
+  color: var(--dark-text);
+  border: 1px solid var(--dark-border);
+}
+
+.dark input:focus,
+.dark textarea:focus,
+.dark select:focus {
+  border-color: var(--dark-primary);
+  outline: none;
+}
+
+/* Кнопки */
+.dark button {
+  background-color: var(--dark-surface);
+  color: var(--dark-text);
+  border: 1px solid var(--dark-border);
+}
+
+.dark button:hover {
+  background-color: var(--dark-primary-hover);
+}
+
+/* Карточки и контейнеры */
+.dark .card,
+.dark .container {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+/* Таблицы */
+.dark table {
+  background-color: var(--card-bg);
+  color: var(--text-primary);
+}
+
+.dark th,
+.dark td {
+  border-color: var(--border-color);
+}
+
+/* Ссылки */
+.dark a {
+  color: #66b2ff;
+}
+
+.dark a:hover {
+  color: #99ccff;
+}
+
+/* Формы авторизации и регистрации */
+.dark .auth-form {
+  background-color: var(--card-bg);
+  color: var(--text-primary);
+}
+
+.dark .auth-input {
+  background-color: var(--input-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--input-border);
+}
+
+/* Списки продуктов */
+.dark .product-item {
+  background-color: var(--dark-surface);
+  border: 1px solid var(--dark-border);
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+
+/* Чекбоксы */
+.dark input[type="checkbox"] {
+  border-color: var(--border-color);
+}
+
+/* Заголовки */
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark p,
+.dark span,
+.dark label {
+  color: var(--dark-text);
+}
+
+/* Сообщения об ошибках */
+.dark .error-message {
+  color: #ff6b6b;
+}
+
+/* Успешные сообщения */
+.dark .success-message {
+  color: #69db7c;
+}
+
+.dark * {
+  border-color: var(--dark-border);
+}
+
+/* Дополнительные стили для форм */
+.add-product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+.add-product-form input {
+  padding: 0.5rem;
+}
+
+.add-product-form button {
+  padding: 0.5rem;
+  cursor: pointer;
+} 

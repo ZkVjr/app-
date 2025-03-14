@@ -1,0 +1,33 @@
+.dark .form-group {
+  margin-bottom: 15px;
+}
+
+.dark .form-label {
+  color: white;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.dark .form-input {
+  background-color: #2d2d2d;
+  color: white;
+  border: 1px solid #404040;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+.dark .form-input:focus {
+  border-color: #0066cc;
+  outline: none;
+}
+
+.dark .form-button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.dark .form-button:hover {
+  background-color: #0052a3;
+} 

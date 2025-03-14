@@ -1,0 +1,9 @@
+{
+  "productName": "Название продукта",
+  "calories": "Калории",
+  "quantity": "Количество",
+  "price": "Цена",
+  "addProduct": "Добавить продукт",
+  "totalCalories": "Всего калорий",
+  "totalPrice": "Итоговая стоимость"
+} 

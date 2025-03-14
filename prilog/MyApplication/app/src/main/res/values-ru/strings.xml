@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Мое Приложение</string>
+    <string name="settings">Настройки</string>
+    <string name="language">Язык</string>
+    <string name="theme">Тема</string>
+    <string name="dark_mode">Темная тема</string>
+    <string name="light_mode">Светлая тема</string>
+    <string name="save">Сохранить</string>
+    <string name="font_size">Размер шрифта</string>
+    <string name="select_language">Выберите язык</string>
+    <string name="russian">РУС</string>
+    <string name="english">АНГ</string>
+    <string name="contact_tech_support">Обратиться в техподдержку</string>
+    <string name="product_name_hint">Название продукта</string>
+    <string name="expiration_date_hint">Дата истечения (ДД.ММ.ГГГГ)</string>
+    <string name="calories_hint">Калории (ккал)</string>
+    <string name="quantity_hint">Количество (шт)</string>
+    <string name="scanner_button_text">Сканировать штрихкод</string>
+    <string name="save_product_button_text">Сохранить продукт</string>
+    <string name="total_calories_text">Итого калорий: %d</string>
+    <string name="product_price_hint">Цена (руб)</string>
+    <string name="add_product_button_text">Добавить</string>
+    <string name="total_price_text">Итоговая стоимость: 0</string>
+    <string name="save_button_text">Сохранить</string>
+    <string name="nav_page_1">Заметки</string>
+    <string name="nav_page_2">За продуктами</string>
+    <string name="nav_page_3">Список</string>
+    <string name="nav_page_4">Корзина</string>
+    <string name="nav_page_5">Настройки</string>
+    <string name="calories_suffix">ккал</string>
+    <string name="quantity_suffix">шт</string>
+    <string name="small">Маленький</string>
+    <string name="medium">Средний</string>
+    <string name="large">Большой</string>
+    <string name="currency">руб</string>
+    <!-- Добавьте другие строки для вашего приложения -->
+</resources>

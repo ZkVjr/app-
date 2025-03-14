@@ -1,0 +1,35 @@
+.dark .auth-container {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.dark .auth-input {
+  background-color: #2d2d2d;
+  color: white;
+  border: 1px solid #404040;
+  padding: 8px 12px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.dark .auth-input::placeholder {
+  color: #999;
+}
+
+.dark .auth-button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.dark .auth-button:hover {
+  background-color: #0052a3;
+}
+
+.dark .auth-link {
+  color: #66b2ff;
+} 

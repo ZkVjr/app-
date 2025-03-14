@@ -1,0 +1,20 @@
+.dark .table {
+  background-color: #1a1a1a;
+  color: white;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.dark .table th,
+.dark .table td {
+  border: 1px solid #333;
+  padding: 12px;
+}
+
+.dark .table th {
+  background-color: #2d2d2d;
+}
+
+.dark .table tr:hover {
+  background-color: #2d2d2d;
+} 

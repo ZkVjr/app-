@@ -1,0 +1,24 @@
+.dark .product-item {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: white;
+  margin: 10px 0;
+  padding: 15px;
+}
+
+.dark .product-controls button {
+  background-color: #2d2d2d;
+  color: white;
+  border: 1px solid #404040;
+  padding: 5px 10px;
+}
+
+.dark .product-controls button:hover {
+  background-color: #404040;
+}
+
+.dark .total-calories,
+.dark .total-price {
+  color: white;
+  font-weight: bold;
+} 

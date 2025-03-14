@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_page1"
+        android:icon="@drawable/ic_menu_info_details"
+        android:title="@string/nav_page_1"
+        android:textColor="?android:textColorPrimary" /> <!-- Используем атрибут для изменения цвета иконки в зависимости от темы -->
+
+    <item
+        android:id="@+id/nav_page2"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="@string/nav_page_2"
+        android:textColor="?android:textColorPrimary" />
+
+    <item
+        android:id="@+id/nav_page3"
+        android:icon="@drawable/ic_shopping"
+        android:title="@string/nav_page_3"
+        android:textColor="?android:textColorPrimary" />
+
+    <item
+        android:id="@+id/nav_page4"
+        android:icon="@drawable/ic_bag"
+        android:title="@string/nav_page_4"
+        android:textColor="?android:textColorPrimary" />
+
+    <item
+        android:id="@+id/nav_page5"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/nav_page_5"
+        android:textColor="?android:textColorPrimary"/>
+</menu>

@@ -1,0 +1,12 @@
+.dark .header {
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+.dark .nav-link {
+  color: white;
+}
+
+.dark .nav-link:hover {
+  color: #66b2ff;
+} 

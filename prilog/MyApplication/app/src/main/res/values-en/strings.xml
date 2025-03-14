@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pomosh</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="save">Save</string>
+    <string name="font_size">Font Size</string>
+    <string name="select_language">Select Language</string>
+    <string name="russian">RUS</string>
+    <string name="english">ENG</string>
+    <string name="contact_tech_support">Contact Tech Support</string>
+    
+    <!-- Product Fields -->
+    <string name="product_name_hint">Product Name</string>
+    <string name="expiration_date_hint">Expiration Date (dd.mm.yyyy)</string>
+    <string name="calories_hint">Calories</string>
+    <string name="quantity_hint">Quantity</string>
+    <string name="calories_suffix">kcal</string>
+    <string name="quantity_suffix">pcs</string>
+    <string name="product_price_hint">Price</string>
+    <string name="currency">rub</string>
+    
+    <!-- Buttons -->
+    <string name="scanner_button_text">Scan Barcode</string>
+    <string name="save_product_button_text">Save</string>
+    <string name="save_button_text">Save</string>
+    <string name="clear_all_button">Clear All</string>
+    <string name="add_product_button">Add Product</string>
+    <string name="add_product_button_text">Add</string>
+    
+    <!-- Navigation -->
+    <string name="nav_page_1">Notes</string>
+    <string name="nav_page_2">Go Shopping</string>
+    <string name="nav_page_3">List</string>
+    <string name="nav_page_4">Bag</string>
+    <string name="nav_page_5">Settings</string>
+    
+    <!-- Messages -->
+    <string name="total_calories_text">Total Calories: %1$d</string>
+    <string name="total_price_text">Total: %1$.2f rub</string>
+    <string name="list_cleared">List cleared</string>
+    <string name="product_saved">Product saved!</string>
+    <string name="scan_cancelled">Scan cancelled</string>
+    <string name="scan_error">Error: invalid barcode</string>
+    <string name="scan_prompt">Scan barcode</string>
+    <string name="error_required_fields">Error: all required fields must be filled</string>
+    <string name="error_invalid_date">Error: invalid date format</string>
+    
+    <!-- Font Sizes -->
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+</resources> 

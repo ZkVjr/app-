@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="Theme">
+        <attr name="colorBackground" format="color"/>
+        <attr name="colorSurface" format="color"/>
+        <attr name="colorOnSurface" format="color"/>
+        <attr name="colorPrimary" format="color"/>
+        <attr name="colorSecondary" format="color"/>
+        <attr name="iconColor" format="color"/>
+        <attr name="colorControlNormal" format="color"/>
+        <attr name="colorPrimaryVariant" format="color"/>
+        <attr name="productContainer" format="color"/>
+    </declare-styleable>
+</resources>
